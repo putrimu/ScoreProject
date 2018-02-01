@@ -19,7 +19,11 @@
         <activity android:name=".DetailssatuActivity" />
         <activity android:name=".DetailsduaActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ListPertandinganActivity"></activity>
+        <activity android:name=".ListPertandinganActivity" />
+        <activity
+            android:name=".NavBarPertandingan"
+            android:label="@string/title_activity_nav_bar_pertandingan"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

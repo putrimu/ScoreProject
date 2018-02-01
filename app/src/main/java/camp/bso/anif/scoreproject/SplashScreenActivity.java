@@ -24,7 +24,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             public void run() {
 
                 //mengarahkan ke main activity
-                Intent i = new Intent(SplashScreenActivity.this,MainActivity.class);
+                Intent i = new Intent(SplashScreenActivity.this,NavBarPertandingan.class);
                 startActivity(i);
                 // close this activity ( tutup splash screen)
                 finish();
