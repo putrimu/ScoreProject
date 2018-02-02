@@ -9,38 +9,29 @@
         android:id="@+id/wordhome"
         android:layout_width="wrap_content"
         style="@style/tanding_title"
-        android:text="H-"
-
-         />
+        android:text="H-"/>
     <TextView
         android:id="@+id/word1"
-        android:layout_width="wrap_content"
-        style="@style/tanding_title"
-        android:text="Team 1"
         android:layout_weight="0.5"
-         />
-    <TextView
-        android:id="@+id/word3"
-        android:layout_width="wrap_content"
         style="@style/tanding_title"
-        android:text="vs"
-        android:layout_weight="0.33"
-
-         />
+        android:text="Team 1"/>
+    <TextView
+        android:id="@+id/vs"
+        android:layout_weight="0.6"
+        style="@style/tanding_title"
+        android:gravity="center_horizontal"
+        android:text="VS"/>
     <TextView
         android:id="@+id/word2"
-        android:layout_width="wrap_content"
-        style="@style/tanding_title"
-        android:text="Team 2"
         android:layout_weight="0.5"
-         />
+        style="@style/tanding_title"
+        android:gravity="right"
+        android:text="Team 2"/>
     <TextView
         android:id="@+id/wordaway"
         android:layout_width="wrap_content"
         style="@style/tanding_title"
-        android:text="-A"
-         />
-
+        android:text="-A"/>
 
 
 </LinearLayout>
