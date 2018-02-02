@@ -81,20 +81,30 @@ public class NavBarPertandingan extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_listpertandingan) {
             // Handle the menu camera ke list pertandingan
 
-            Intent i= new Intent(NavBarPertandingan.this, ListPertandinganActivity.class);
-            startActivity(i);
-        } else if (id == R.id.nav_gallery) {
+            Intent listpertandingan= new Intent(NavBarPertandingan.this, ListPertandinganActivity.class);
+            startActivity(listpertandingan);
+        } else if (id == R.id.nav_scoreboard) {
+            Intent scoreboard= new Intent(NavBarPertandingan.this, MainActivity.class);
+            startActivity(scoreboard);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_info) {
+            Intent info= new Intent(NavBarPertandingan.this, infoApplication.class);
+            startActivity(info);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_setting) {
+//            Intent setting= new Intent(NavBarPertandingan.this, .class);
+//            startActivity(setting);
 
         } else if (id == R.id.nav_share) {
+//            Intent i= new Intent(NavBarPertandingan.this, ListPertandinganActivity.class);
+//            startActivity(i);
 
         } else if (id == R.id.nav_send) {
+//            Intent i= new Intent(NavBarPertandingan.this, ListPertandinganActivity.class);
+//            startActivity(i);
 
         }
 
